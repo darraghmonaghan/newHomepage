@@ -1,0 +1,21 @@
+{
+  "name": "newWebsite",
+  "authors": [
+    "monaghan.darragh@gmail.com <monaghan.darragh@gmail.com>"
+  ],
+  "description": "personal webpage",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "underscore": "^1.8.3"
+  }
+}

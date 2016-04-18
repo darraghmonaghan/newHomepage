@@ -1,0 +1,36 @@
+
+
+#welcomeJumbo {
+	background-color: #252839;
+	border-bottom: #f2b632 7px solid;
+}
+
+#welcomeJumbo h1 {
+	color: #f2b632;
+	font-family: 'Josefin Slab', serif;
+	font-weight: bold;
+}
+
+#bullets {
+	color: #b5b5b7;
+	font-family: 'Josefin Slab', serif;
+	font-weight: thin;
+}
+
+.highlight {
+	color: #f2b632;
+	font-weight: bold;
+}
+
+
+.body {
+	color: #677077;
+	font-family: 'Josefin Slab', serif;
+	font-weight: thin;
+	font-size: 20px;
+}
+
+.body h2 {
+	color: #252839;
+	font-weight: bold;
+}
