@@ -72,16 +72,25 @@
 }
 
 
+/***************** Portfolio Div **********************/
 
+.portfolioDiv {
+    float:left;
+    width: 30%;
+    padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-color: #1E1E1E;
+}
 
 
 /***************** Contact Jumbo **********************/
 
 #contactJumbo {
-	background-color: #f2b632;
-	border-top: #252839 10px solid;
+	background-color: #b5b5b7;
+	border-top: #252839 3px solid;
 	min-height: 250px;
-	display: flex;
+
+	position: static;
 }
 
 #contactJumbo h2 {
