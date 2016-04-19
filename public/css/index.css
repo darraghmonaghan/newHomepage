@@ -1,6 +1,7 @@
 
-/***********   JumboTron   **************/
 
+
+/***********   JumboTron   **************/
 #welcomeJumbo {
 	background-color: #252839;
 	border-bottom: #f2b632 10px solid;
@@ -51,6 +52,7 @@
 }
 
 
+/*************************************************/
 
 
 .highlight {
@@ -58,14 +60,13 @@
 	font-weight: bold;
 }
 
-
-.body {
+.bodyText {
 	color: #252839;
 	font-family: 'Crimson Text', serif;
 	font-size: 20px;
 }
 
-.body h2 {
+.bodyText h2 {
 	color: #677077;
 	font-family: 'Julius Sans One', sans-serif;
 	font-style: italic;
@@ -91,23 +92,23 @@
     padding: 10% 5%;
 }
 
-.table{
+.table {
     display:table;
     height:100%;
     width:100%;
 }
-.table-cell{
+.table-cell {
     display:table-cell;
     vertical-align:middle;
     height:100%;
     width:100%;
 }
 
-.bg{
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
-    color:#fff;
+.bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; /* you change this to "contain" if you don't want the images to be cropped */
+    color: #fff;
 }
 
 #portfolio1 {
@@ -130,20 +131,54 @@
 }
 
 
+/***************** Blog Jumbo **********************/
+#blogJumbo {
+	background-image: url('../images/books.jpg');;
+	min-height: 300px;
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+    border-top: #f2b632 5px solid;
+}
+
+#blogJumbo a {
+	text-decoration: none;
+}
+
+#blogJumbo h2 {
+	color: #252839;
+	font-family: 'Julius Sans One', sans-serif;
+	font-style: italic;
+	padding-top: 20px;
+}
+
+.shadow {
+    color: white;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;  
+}
 
 /***************** Contact Jumbo **********************/
 
 #contactJumbo {
-	background-color: #b5b5b7;
-	border-top: #252839 3px solid;
-	min-height: 250px;
-
+	background-color: #252839;
+	border-top: #f2b632 5px solid;
+	min-height: 300px;
 	position: static;
+	margin-bottom: 0;
 }
 
-#contactJumbo h2 {
-	color: #252839;
-	font-family: 'Crimson Text', serif;
-	font-weight: 600;
+#contactJumbo {
+	color: #f2b632;
+	font-family: 'Julius Sans One', sans-serif;
 	font-style: italic;
+}
+
+#contactJumbo a {
+	text-decoration: none;
+	color: #f2b632;
 }
