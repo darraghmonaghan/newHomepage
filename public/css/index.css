@@ -1,21 +1,57 @@
 
+/***********   JumboTron   **************/
 
 #welcomeJumbo {
 	background-color: #252839;
-	border-bottom: #f2b632 7px solid;
+	border-bottom: #f2b632 10px solid;
+	min-height: 450px;
+	display: flex;
 }
 
 #welcomeJumbo h1 {
 	color: #f2b632;
-	font-family: 'Josefin Slab', serif;
-	font-weight: bold;
+	font-family: 'Crimson Text', serif;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.jumboContainer {
+	margin: auto;
+	text-align: center;
+	padding-top: 25px;
 }
 
 #bullets {
 	color: #b5b5b7;
-	font-family: 'Josefin Slab', serif;
-	font-weight: thin;
+	font-family: 'Julius Sans One', sans-serif;
 }
+
+#viewPortfolio {
+	background-color: #252839;
+	border-radius: 0 0 0 0;
+	border-top-color: #f2b632;
+	border-bottom-color: #f2b632;
+
+	border-left-color: rgba(0,0,0,0);
+	border-right-color: rgba(0,0,0,0); 
+
+	font-family: 'Julius Sans One', sans-serif;
+	color: #f2b632;
+
+	text-align: center;
+}
+
+#viewPortfolio:hover {
+	background-color: #f2b632;
+	border-radius: 0 0 0 0;
+	border-color: #f2b632;
+	font-family: 'Julius Sans One', sans-serif;
+	color: #252839;
+
+}
+
+
+
 
 .highlight {
 	color: #f2b632;
@@ -24,13 +60,33 @@
 
 
 .body {
-	color: #677077;
-	font-family: 'Josefin Slab', serif;
-	font-weight: thin;
+	color: #252839;
+	font-family: 'Crimson Text', serif;
 	font-size: 20px;
 }
 
 .body h2 {
+	color: #677077;
+	font-family: 'Julius Sans One', sans-serif;
+	font-style: italic;
+}
+
+
+
+
+
+/***************** Contact Jumbo **********************/
+
+#contactJumbo {
+	background-color: #f2b632;
+	border-top: #252839 10px solid;
+	min-height: 250px;
+	display: flex;
+}
+
+#contactJumbo h2 {
 	color: #252839;
-	font-weight: bold;
+	font-family: 'Crimson Text', serif;
+	font-weight: 600;
+	font-style: italic;
 }
