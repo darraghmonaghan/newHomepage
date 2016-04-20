@@ -4,7 +4,7 @@
 /***********   JumboTron   **************/
 #welcomeJumbo {
 	background-color: #252839;
-	border-bottom: #f2b632 10px solid;
+	border-bottom: #f2b632 5px solid;
 	min-height: 450px;
 	display: flex;
 }
@@ -43,11 +43,12 @@
 }
 
 #viewPortfolio:hover {
-	background-color: #f2b632;
+	background-color: #252839;
 	border-radius: 0 0 0 0;
-	border-color: #f2b632;
+	border-top-color: white;
+	border-bottom-color: white;	
 	font-family: 'Julius Sans One', sans-serif;
-	color: #252839;
+	color: white;
 
 }
 
