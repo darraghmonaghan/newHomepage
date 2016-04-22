@@ -1,4 +1,16 @@
 
+body {
+	background-color: #f7f7f7;
+}
+
+.bodyText {
+	background-color: white;
+}
+
+#welcomeJumbo {
+	margin-bottom: 0px;
+}
+
 
 
 /***********   JumboTron   **************/
@@ -182,4 +194,53 @@
 #contactJumbo a {
 	text-decoration: none;
 	color: #f2b632;
+}
+
+.form-control {
+	border-radius: 0 0 0 0;
+}
+
+
+#sendSMSbtn {
+	background-color: #252839;
+	border-radius: 0 0 0 0;
+	border-top-color: #f2b632;
+	border-bottom-color: #f2b632;
+
+	border-left-color: rgba(0,0,0,0);
+	border-right-color: rgba(0,0,0,0); 
+
+	font-family: 'Julius Sans One', sans-serif;
+	color: #f2b632;
+
+	text-align: center;
+}
+
+#sendSMSbtn:hover {
+	background-color: #252839;
+	border-radius: 0 0 0 0;
+	border-top-color: white;
+	border-bottom-color: white;	
+	font-family: 'Julius Sans One', sans-serif;
+	color: white;
+
+}
+
+input[type="text"], textarea {
+  	background-color: #ededed; 
+  	color: #252839;
+}
+
+::-webkit-input-placeholder {
+   color: #f2b632;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #f2b632;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #f2b632;  
+}
+:-ms-input-placeholder {  
+   color: #f2b632;  
 }
