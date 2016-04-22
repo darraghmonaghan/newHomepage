@@ -75,15 +75,16 @@ body {
 }
 
 .bodyText {
-	color: #252839;
-	font-family: 'Crimson Text', serif;
+	color: #677077;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
 	font-size: 20px;
 }
 
 .bodyText h2 {
-	color: #677077;
-	font-family: 'Julius Sans One', sans-serif;
-	font-style: italic;
+	color: #252839;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
 }
 
 
