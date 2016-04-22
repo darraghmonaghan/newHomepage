@@ -5,7 +5,11 @@ var express = require('express'),
     path = require("path"),
     mongoose = require('mongoose'),
     views = path.join(__dirname, "views"),
-    session = require("express-session");
+    session = require("express-session"),
+    twilioAPI = require('twilio-api'),
+    twilio = require('twilio');
+    env = process.env;
+
 
 
 app.use("/static", express.static("public"));
@@ -27,6 +31,24 @@ app.get("/", function (req, res) {
 	var homepage = path.join(views, 'index.html');
 	res.sendFile(homepage);
 });
+
+
+app.post("/sayHello", function (req, res) {
+    var message = req.body;
+    var name = message.name;
+    var email = message.email;
+    var text = message.text;
+
+    var client = require('twilio')(env.TWILIO_ACCOUNT_SID, env.TWILIO_AUTH_TOKEN);
+ 
+    client.messages.create({
+        to: "+447783463286",
+        from: "+441934446036",
+        body: ("From: " + name + ' Contact: ' + email + ' RE: ' + text)
+    });
+    res.redirect('/');
+});
+
 
 // start the server
 app.listen(3000, function () {
