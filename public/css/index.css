@@ -4,7 +4,7 @@ body {
 }
 
 .bodyText {
-	background-color: white;
+	background-color: #f7f7f7;
 }
 
 #welcomeJumbo {
@@ -173,19 +173,19 @@ body {
 }
 
 #blogJumbo h2 {
-	color: #252839;
-	font-family: 'Julius Sans One', sans-serif;
-	font-style: italic;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
 	padding-top: 20px;
 }
 
 .shadow {
-    color: white;
+    color: #252839;
     text-shadow:
-    -1px -1px 0 white,
-    1px -1px 0 white,
-    -1px 1px 0 white,
-    1px 1px 0 white;  
+    -1px -1px 0 #252839,
+    1px -1px 0 #252839,
+    -1px 1px 0 #252839,
+    1px 1px 0 #252839;  
 }
 
 /***************** Contact Jumbo **********************/
